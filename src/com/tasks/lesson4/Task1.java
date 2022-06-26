@@ -7,16 +7,14 @@ public class Task1 {
         System.out.println("Введите целое число:");
         Scanner scan = new Scanner(System.in);
         int number;
-        if (scan.hasNextInt()){
+        if (scan.hasNextInt()) {
             number = scan.nextInt();
-            if(number%2 == 0){
+            if (number % 2 == 0) {
                 System.out.println("Число четное");
-            }
-            else {
+            } else {
                 System.out.println("Число нечетное");
             }
-        }
-        else {
+        } else {
             System.out.println("Ошибка! Введенное число не является целым.");
         }
     }
